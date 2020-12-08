@@ -13,6 +13,10 @@
 		6F05C12B257BBBAB001FA836 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F05C129257BBBAB001FA836 /* Main.storyboard */; };
 		6F05C12D257BBBAE001FA836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F05C12C257BBBAE001FA836 /* Assets.xcassets */; };
 		6F05C130257BBBAE001FA836 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F05C12E257BBBAE001FA836 /* LaunchScreen.storyboard */; };
+		6F05C139257E5519001FA836 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C138257E5519001FA836 /* Constants.swift */; };
+		6F05C13C257E579E001FA836 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C13B257E579E001FA836 /* Video.swift */; };
+		6F05C13F257E5815001FA836 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C13E257E5815001FA836 /* Model.swift */; };
+		6F05C142257FAADB001FA836 /* ConstantsTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C141257FAADB001FA836 /* ConstantsTemplate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6F05C12C257BBBAE001FA836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F05C12F257BBBAE001FA836 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6F05C131257BBBAE001FA836 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F05C138257E5519001FA836 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		6F05C13B257E579E001FA836 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		6F05C13E257E5815001FA836 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6F05C141257FAADB001FA836 /* ConstantsTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantsTemplate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				6F05C12C257BBBAE001FA836 /* Assets.xcassets */,
 				6F05C12E257BBBAE001FA836 /* LaunchScreen.storyboard */,
 				6F05C131257BBBAE001FA836 /* Info.plist */,
+				6F05C138257E5519001FA836 /* Constants.swift */,
+				6F05C141257FAADB001FA836 /* ConstantsTemplate.swift */,
+				6F05C13B257E579E001FA836 /* Video.swift */,
+				6F05C13E257E5815001FA836 /* Model.swift */,
 			);
 			path = "youtube-onedaybuild";
 			sourceTree = "<group>";
@@ -137,9 +149,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F05C142257FAADB001FA836 /* ConstantsTemplate.swift in Sources */,
 				6F05C128257BBBAB001FA836 /* ViewController.swift in Sources */,
 				6F05C124257BBBAB001FA836 /* AppDelegate.swift in Sources */,
 				6F05C126257BBBAB001FA836 /* SceneDelegate.swift in Sources */,
+				6F05C13F257E5815001FA836 /* Model.swift in Sources */,
+				6F05C139257E5519001FA836 /* Constants.swift in Sources */,
+				6F05C13C257E579E001FA836 /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
