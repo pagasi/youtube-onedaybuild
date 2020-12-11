@@ -20,6 +20,7 @@
 		6F05C146257FBAA1001FA836 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C145257FBAA1001FA836 /* Response.swift */; };
 		6F05C149258244AF001FA836 /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C148258244AF001FA836 /* VideoTableViewCell.swift */; };
 		6F05C15325824CCF001FA836 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C15225824CCF001FA836 /* CacheManager.swift */; };
+		6F05C15625839E7B001FA836 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F05C15525839E7B001FA836 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		6F05C145257FBAA1001FA836 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		6F05C148258244AF001FA836 /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
 		6F05C15225824CCF001FA836 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
+		6F05C15525839E7B001FA836 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				6F05C127257BBBAB001FA836 /* ViewController.swift */,
+				6F05C15525839E7B001FA836 /* DetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6F05C15625839E7B001FA836 /* DetailViewController.swift in Sources */,
 				6F05C146257FBAA1001FA836 /* Response.swift in Sources */,
 				6F05C142257FAADB001FA836 /* ConstantsTemplate.swift in Sources */,
 				6F05C128257BBBAB001FA836 /* ViewController.swift in Sources */,

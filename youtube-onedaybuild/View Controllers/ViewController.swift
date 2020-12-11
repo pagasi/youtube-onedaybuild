@@ -26,6 +26,20 @@ class ViewController: UIViewController {
         model.getVideos()
     }
 
+    //MARK: methods
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        guard tableView.indexPathForSelectedRow != nil else {
+            return
+        }
+        
+        //get a reference to the video that was tapped
+        let selectedVideo = videos[tableView.indexPathForSelectedRow!.row]
+        //get a reference to the detailVC
+        let detailVC = segue.destination as! DetailViewController
+        //set the video property of the detailVC
+        detailVC.video = selectedVideo
+    }
 
 }
  //MARK: tableview methods
@@ -49,6 +63,7 @@ extension ViewController : UITableViewDelegate, UITableViewDataSource, ModelDele
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //segue
+        
     }
     
     //MARK:  ModelDelegate methods
